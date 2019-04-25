@@ -12,4 +12,13 @@
     <li>Facts</li>
     <li>I'm possible</li>
 </ul>
+<button id="btn">Click Me</button>
+<p id="message"></p>
+<Script>
+    console.log("hello world");
+    document.getElementById('btn').addEventListener('click', function() {
+        console.log("yo bro");
+        document.getElementById("message"). innerHTML ="secret message";
+        });
+</Script>
 </html>
